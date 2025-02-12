@@ -3,6 +3,16 @@ body {
     padding: 0;
 }
 
+#js-timer {
+    text-align: center;
+}
+
+#timer{
+    font-size: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .text-input {
     width: 350px;
     padding: 15px;
@@ -16,7 +26,7 @@ body {
 .text-input-container {
     display: flex;
     justify-content: center;
-    margin-top: 30px; /* Space between the input box and the button/timer */
+    margin-top: 30px;
 }
 
 .header {
@@ -31,8 +41,7 @@ body {
 
 .button-timer-container {
     display: flex;
-    justify-content: center;  /* Align the button and timer side by side */
-    align-items: center;  /* Vertically align them */
+    justify-content: center;
     gap: 20px;
     margin-top: 50px;
 }
@@ -54,19 +63,29 @@ body {
     text-transform: uppercase;
 }
 
+.button2 {
+    background-color: #FEE715;
+    border: 2px solid #000000;
+    color: #101820;
+    padding: 15px 0;
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0;
+    text-transform: uppercase;
+}
+
 .button:hover {
     background-color: #FFD700;
     transform: scale(1.05);
 }
 
-.timer-container {
-    background-color: #ffffff;
-    border: 2px solid #000000;
-    color: rgb(0, 0, 0);
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 200px;
-    margin: 0;
+.button2:hover {
+    background-color: #FFD700;
+    transform: scale(1.05);
 }
