@@ -3,3 +3,4 @@ document.querySelector('.button').addEventListener('click', function() {
 });
 
 let count = 3;
+console.log(count);
