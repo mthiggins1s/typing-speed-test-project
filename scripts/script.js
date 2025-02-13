@@ -12,4 +12,3 @@ document.querySelector('.button').addEventListener('click', function() {
     alert("Typing test has been reset!");
     console.log("The test has been reset!")
 });
-
