@@ -51,6 +51,7 @@ body {
     border: 2px solid #000000;
     color: #101820;
     padding: 15px 0;
+    font-weight: bold;
     width: 200px;
     text-align: center;
     font-size: 15px;
@@ -68,6 +69,7 @@ body {
     border: 2px solid #000000;
     color: #101820;
     padding: 15px 0;
+    font-weight: bold;
     width: 200px;
     text-align: center;
     font-size: 15px;
@@ -88,4 +90,40 @@ body {
 .button2:hover {
     background-color: #FFD700;
     transform: scale(1.05);
+}
+
+.userName {
+    width: 350px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.textH1 {
+    width: 350px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button3 {
+    background-color: #FEE715;
+    border: 2px solid #000000;
+    color: #101820;
+    padding: 15px 0;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 0;
+    text-transform: uppercase;
 }
