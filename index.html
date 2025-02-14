@@ -7,25 +7,31 @@
     <title>Typing Speed Test</title>
 </head>
 <body>
-    <h1 class="textH1" id="myH1">Welcome</h1>
-
-    <label class="userName">USERNAME:</label>
-    <input id="myText"><br><br>
-    <button class="button3" id="mySubmit">Submit</button>
     <div class="header">
-
         <h1>Speed Typing Test</h1>
         <p>How fast can you type? Try Here!</p>
     </div>
+
+    <div class="username-container">
+        <label class="userName">USERNAME:</label>
+        <input type="text" id="username" name="username" class="username-input">
+        <button class="button" id="submitButton">Submit</button>
+    </div>
+
     <div class="button-timer-container">
         <div id="js-timer">
-            <button class="button2" id="startButton">Click Here to Start</button>
+            <button class="button" id="startButton">Click Here to Start</button>
             <button class="button" id="resetButton">Reset</button>
             <div id="timer">
                 00:00
             </div>
         </div>
     </div>
+    
+    <div class="typing-container">
+        <input type="text" id="typingText" placeholder="Start typing here..." class="typing-box">
+    </div>
+
     <script src="./scripts/script.js"></script>
 </body>
 </html>

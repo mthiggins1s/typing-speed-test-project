@@ -5,28 +5,15 @@ body {
 
 #js-timer {
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;  /* Center the buttons horizontally */
 }
 
-#timer{
+#timer {
     font-size: 40px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 30px;
-}
-
-.text-input {
-    width: 350px;
-    padding: 15px;
-    font-size: 18px;
-    border: 2px solid #000000;
-    border-radius: 8px;
-    color: #101820;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.text-input-container {
-    display: flex;
-    justify-content: center;
     margin-top: 30px;
 }
 
@@ -51,25 +38,7 @@ body {
     background-color: #FEE715;
     border: 2px solid #000000;
     color: #101820;
-    padding: 15px 0;
-    font-weight: bold;
-    width: 200px;
-    text-align: center;
-    font-size: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    cursor: pointer;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-.button2 {
-    background-color: #FEE715;
-    border: 2px solid #000000;
-    color: #101820;
-    padding: 15px 0;
+    padding: 10px 0;
     font-weight: bold;
     width: 200px;
     text-align: center;
@@ -88,13 +57,15 @@ body {
     transform: scale(1.05);
 }
 
-.button2:hover {
-    background-color: #FFD700;
-    transform: scale(1.05);
+.username-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .userName {
-    width: 350px;
+    width: 150px;
     padding: 15px;
     font-weight: bold;
     font-size: 18px;
@@ -102,29 +73,26 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
-.textH1 {
-    width: 350px;
-    padding: 15px;
-    font-weight: bold;
-    font-size: 30px;
-    border-radius: 8px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.username-input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    width: 150px;  /* Adjusted width */
+    margin-right: 10px;  /* Space between input and submit button */
 }
 
-.button3 {
-    background-color: #FEE715;
-    border: 2px solid #000000;
-    color: #101820;
-    padding: 15px 0;
-    font-weight: bold;
-    width: 100px;
+.typing-container {
     text-align: center;
-    font-size: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    cursor: pointer;
+    margin-top: 30px;
+}
+
+.typing-box {
+    width: 70%;  /* Adjusted width of the textbox */
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #000000;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    margin: 0;
-    text-transform: uppercase;
+    color: #101820;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
